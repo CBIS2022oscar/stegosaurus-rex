@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="[-$7.xdH0gfJ=U?%.JJ4">Happy</variable><variable id="Dl$k_9wOy,*dF;ao,`*{">Turn</variable><variable id="|bV7zRc{H43#=zqwE`bp">Sad</variable><variable id="4/_J31N4r;3n|K_;Pv+D">Scared</variable><variable id="f3$+L,2=09}UNMV!%[Py">Laugh</variable></variables><block type="pxt-on-start" id="C~3zDzZ_r,09l3eS8r(j" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="cef*ct!o/FY:a_@l9B({"><field name="VAR" id="f3$+L,2=09}UNMV!%[Py">Laugh</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="SFa+V0U-[{;TX#ZRPhZ{"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        # # # # # 
+        . # # # .
+        `</field></block></value><next><block type="variables_set" id="6NRJ~z0;c62JDNF|%Aqd"><field name="VAR" id="|bV7zRc{H43#=zqwE`bp">Sad</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="o7Y`%vY^H[bX*Q?5M}Ln"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></value><next><block type="variables_set" id=")?p|p;r(!k596$V9:fQj"><field name="VAR" id="[-$7.xdH0gfJ=U?%.JJ4">Happy</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="qr,p@@eMu8(pJD-nL?P%"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        # . . . # 
+        . # # # .
+        `</field></block></value></block></next></block></next></block></statement></block><block type="device_gesture_event" id="t?tui@vr8m;d~jVj?~oT" x="499" y="-12"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="V}KH{n_oiRS!,WA(:u3G"><field name="VAR" id="4/_J31N4r;3n|K_;Pv+D">Scared</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_build_image" id="6cD6j-Ig_i^UuIx59jE)"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></value></block></statement></block><block type="device_forever" id="qPA[G$ec@,xo?Y7+x:]G" x="540" y="134"></block></xml>
