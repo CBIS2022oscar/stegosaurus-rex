@@ -1,34 +1,20 @@
-input.onGesture(Gesture.Shake, function () {
-    Scared = images.createImage(`
-        # . . . #
+input.onSound(DetectedSound.Loud, function () {
+    Sad = images.createImage(`
+        . . . . .
         . # . # .
         . . . . .
         . # # # .
         # . . . #
         `)
 })
-let Scared: Image = null
+input.onGesture(Gesture.Shake, function () {
+	
+})
+let Sad: Image = null
 let Laugh = images.createImage(`
     . # . # .
     # . . . #
-    . . . . .
-    # # # # #
-    . # # # .
-    `)
-let Sad = images.createImage(`
-    . . . . .
-    . # . # .
-    . . . . .
-    . # # # .
-    # . . . #
-    `)
-let Happy = images.createImage(`
-    . # . # .
-    . . . . .
     # # # # #
     # . . . #
     . # # # .
     `)
-basic.forever(function () {
-	
-})
